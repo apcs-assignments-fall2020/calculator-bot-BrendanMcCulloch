@@ -24,6 +24,8 @@ public class MyMain {
         else {
             return b;
         }
+    }
+
     // Returns the "c" value from the Pythagorean theorem "a^2 + b^2 = c^2",
     // where "a" and "b" are the inputs to the method
     public static double pythagoras(int a, int b) {
@@ -33,9 +35,9 @@ public class MyMain {
 
     public static void main(String[] args) {
         // You may want to keep these lines of code to test that your methods work
-        System.out.println(median(mone, mtwo, mthree)); // should be 2
-        System.out.println(magnitude(maone, mtwo)); // should be -7
-        System.out.println(pythagoras(pone, ptwo)); // should be 5.0
+        // System.out.println(median(mone, mtwo, mthree)); // should be 2
+        // System.out.println(magnitude(maone, mtwo)); // should be -7
+        // System.out.println(pythagoras(pone, ptwo)); // should be 5.0
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Int: ");
